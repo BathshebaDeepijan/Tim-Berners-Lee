@@ -1,0 +1,39 @@
+#tim {border: 5px solid grey ; border-radius: 100%; }
+
+h1{color: #dd5555;}
+
+body { background-color: lightgrey;
+display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;
+font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+width: 35%;    
+background-color: white;
+    display: flex;
+flex-flow: column nowrap;
+justify-content: center;
+align-items: center;}
+
+header{margin: 25px;
+padding: 5px 10px 5px 10px ;
+border-radius: 5px;}
+
+nav{margin: 25px;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px;}
+
+section{margin: 25px;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px;}
+
+    button{background-color:#dd5555 ;
+    color: lightgrey;
+    border-radius: 5px;
+    font: bolder;
+width: 250px;
+height: 50px;
+font-size: x-large;
