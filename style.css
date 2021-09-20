@@ -13,12 +13,12 @@ color: lightgrey;
 
 h2, h3, strong{color: grey;}
 
+
 .box {
-width: 40%;  
+width: 35%;  
 background-color: white;
     }
-    ul{ list-style: none;}
-    li {display: inline-block;}
+   
 
 header{margin: 25px;
 padding: 5px 10px 5px 10px ;
@@ -30,28 +30,14 @@ justify-content: center;
 align-items: center;
 }
 
-nav{margin: 25px;
-    padding: 5px 10px 5px 10px ;
-    border-radius: 5px;
-   
-   }
+
 
 section{margin: 25px;
     padding: 5px 10px 5px 10px ;
     border-radius: 5px;
     
-    text-align: right;
+    text-align: center;
 }
-
-.affiche{ display: flex;
-flex-flow: row;
-justify-content: left;
-align-items: flex-start;}
-
-.film{display: flex;
-flex-flow: row;
-justify-content: center;
-align-items: center;}
 
 
 
@@ -69,8 +55,15 @@ font-size: x-large;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
-      
         background-color: white;
-        border-radius: 8px;}
-
+        border-radius: 8px;
+      }
+      ul {
+        list-style: none;
+        margin-left: 16px;
+      }
+      li {
+        display: inline-block;
+        margin-left: 16px;
+      }
 
